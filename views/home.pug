@@ -1,0 +1,42 @@
+extends base.pug 
+block scripts 
+    scripts(src="/static/index.js" )
+block style     
+    style
+        include ../static/style.css
+block content
+    section#introsection 
+        div Welcome to "Dancemy"
+        div.small Let's Dance    
+    section#missionsection
+        h2 Our Mission 
+        br
+        div.card 
+            h3 Best Academy for Dance
+            div.card-box 
+                div.card-img
+                    img(src="static/image/dance_1.png")
+                div.card-content 
+                    p Dance is an art form of sequences of body movements with aesthetic.
+        div.card 
+            h3 Dance Dance Dance
+            div.card-box 
+                div.card-img
+                    img(src="static/image/dance_2.png")
+                div.card-content 
+                    p Rhythm and dance are deeply linked in history and practice.
+        div.card 
+            h3 Step by Step Dance
+            div.card-box 
+                div.card-img
+                    img(src="static/image/dance_3.png")
+                div.card-content 
+                    p Dances generally have a characteristic tempo and rhythmic pattern.
+
+    section#sponsorsection
+        h2 Our Sponsor
+            div#sponsers 
+                img(src="static/image/amazon.png", alt="Sponser image", class="class_1")
+                img(src="static/image/apple.png", alt="Sponser image", class="class_1")
+                img(src="static/image/dell.png", alt="Sponser image", class="class_1")
+                img(src="static/image/nike.png", alt="Sponser image", class="class_1")

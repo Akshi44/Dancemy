@@ -1,0 +1,16 @@
+{
+  "name": "akshita_dance_website",
+  "version": "1.0.0",
+  "description": "this is a website for the purpose of dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshita_Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}
